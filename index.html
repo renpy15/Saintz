@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>/Saintz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <button class="btn" onclick="playAudio(); showProfile()">
+            <span class="btn-text">Enter Portal</span>
+            <span class="btn-border btn-border-top"></span>
+            <span class="btn-border btn-border-right"></span>
+            <span class="btn-border btn-border-bottom"></span>
+            <span class="btn-border btn-border-left"></span>
+        </button>
+        <audio id="bg-music" src="assets/audio/August_10.mp3" loop></audio>
+        <div class="profile" id="profile">
+            <div class="profile-bg">
+                <div class="hexagon"></div>
+                <div class="hexagon"></div>
+                <div class="hexagon"></div>
+            </div>
+            <div class="info">
+                <h2>/SAINTZ</h2>
+                <div class="social">
+                    <a href="https://discord.gg/sntz" target="_blank" class="social-btn">
+                        <span>Join Us</span>
+                        <i class="discord-icon"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+        </div>
+    </div>
+
+    <script src="js/particles-config.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
